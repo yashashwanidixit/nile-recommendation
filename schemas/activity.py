@@ -1,10 +1,12 @@
 import re
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 TIME_REGEX = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
 
 
 class Activity(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
     activity_id: str
     name: str
     destination: str
