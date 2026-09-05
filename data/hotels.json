@@ -1,0 +1,3704 @@
+{
+  "hotels": [
+    {
+      "hotel_id": "H001",
+      "name": "Arabian Sea Villa",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 3105,
+      "max_guests": 3,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "central"
+      ],
+      "rating": 3.3,
+      "latitude": 15.51456,
+      "longitude": 73.79296,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H002",
+      "name": "Amber Bungalows",
+      "destination": "Goa",
+      "location": "Panaji",
+      "price_per_night": 1776,
+      "max_guests": 8,
+      "amenities": [
+        "24_hour_front_desk",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central"
+      ],
+      "rating": 3.1,
+      "latitude": 15.48441,
+      "longitude": 73.8165,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H003",
+      "name": "Breezeway Suites",
+      "destination": "Goa",
+      "location": "Varca",
+      "price_per_night": 4671,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "rooftop",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "premium",
+        "quiet"
+      ],
+      "rating": 4.2,
+      "latitude": 15.22239,
+      "longitude": 73.93284,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H004",
+      "name": "Amber Manor",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 10088,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "resort"
+      ],
+      "rating": 4.6,
+      "latitude": 15.57307,
+      "longitude": 73.73528,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H005",
+      "name": "Latin Quarter Beach House",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 28223,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "breakfast",
+        "gym",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "wellness"
+      ],
+      "rating": 4.4,
+      "latitude": 15.0513,
+      "longitude": 73.98408,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H006",
+      "name": "Azure Inn",
+      "destination": "Goa",
+      "location": "Colva",
+      "price_per_night": 16004,
+      "max_guests": 10,
+      "amenities": [
+        "air_conditioning",
+        "parking",
+        "pool"
+      ],
+      "tags": [
+        "family",
+        "villas"
+      ],
+      "rating": 4.0,
+      "latitude": 15.28403,
+      "longitude": 73.91292,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H007",
+      "name": "Sunset Suites",
+      "destination": "Goa",
+      "location": "Mobor",
+      "price_per_night": 5416,
+      "max_guests": 4,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.9,
+      "latitude": 15.15617,
+      "longitude": 73.95183,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H008",
+      "name": "Amber Cottages",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 11862,
+      "max_guests": 2,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.7,
+      "latitude": 15.33417,
+      "longitude": 73.8862,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H009",
+      "name": "Sunset Camp",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 5516,
+      "max_guests": 3,
+      "amenities": [
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.8,
+      "latitude": 15.48944,
+      "longitude": 73.79374,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H010",
+      "name": "Driftwood Manor",
+      "destination": "Goa",
+      "location": "Calangute",
+      "price_per_night": 25030,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "spa"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.9,
+      "latitude": 15.53881,
+      "longitude": 73.75416,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H011",
+      "name": "Konkan Manor",
+      "destination": "Goa",
+      "location": "Ashwem",
+      "price_per_night": 3226,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking"
+      ],
+      "tags": [
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.4,
+      "latitude": 15.67443,
+      "longitude": 73.72109,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H012",
+      "name": "Breezeway Lodge",
+      "destination": "Goa",
+      "location": "Majorda",
+      "price_per_night": 6655,
+      "max_guests": 3,
+      "amenities": [
+        "24_hour_front_desk",
+        "restaurant",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.7,
+      "latitude": 15.30319,
+      "longitude": 73.91034,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H013",
+      "name": "Lotus Cottages",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 2538,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "laundry",
+        "parking"
+      ],
+      "tags": [
+        "budget",
+        "friends"
+      ],
+      "rating": 3.5,
+      "latitude": 15.55874,
+      "longitude": 73.752,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H014",
+      "name": "Horizon Cottages",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 1387,
+      "max_guests": 8,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry",
+        "parking"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central",
+        "friends"
+      ],
+      "rating": 3.7,
+      "latitude": 15.56144,
+      "longitude": 73.73501,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H015",
+      "name": "Old World Villas",
+      "destination": "Goa",
+      "location": "Panaji",
+      "price_per_night": 4765,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "rooftop",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "quiet"
+      ],
+      "rating": 4.8,
+      "latitude": 15.49492,
+      "longitude": 73.83358,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H016",
+      "name": "Laguna Estate",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "price_per_night": 8145,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "pool",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 4.5,
+      "latitude": 15.46227,
+      "longitude": 73.81655,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H017",
+      "name": "Cliffside Hostel",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 17184,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "gym",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "wellness"
+      ],
+      "rating": 4.7,
+      "latitude": 15.18252,
+      "longitude": 73.92864,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H018",
+      "name": "Turquoise Villas",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 16540,
+      "max_guests": 12,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "pool",
+        "wifi"
+      ],
+      "tags": [
+        "secluded",
+        "villas"
+      ],
+      "rating": 4.0,
+      "latitude": 15.57413,
+      "longitude": 73.74797,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H019",
+      "name": "Frangipani Bungalows",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 5026,
+      "max_guests": 8,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "restaurant"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.7,
+      "latitude": 15.56582,
+      "longitude": 73.75619,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H020",
+      "name": "Driftwood Guest House",
+      "destination": "Goa",
+      "location": "Porvorim",
+      "price_per_night": 15432,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "pool",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.3,
+      "latitude": 15.52087,
+      "longitude": 73.8357,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H021",
+      "name": "Konkan Boutique Stay",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 5466,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.5,
+      "latitude": 15.32507,
+      "longitude": 73.90894,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H022",
+      "name": "Turquoise Retreat",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "price_per_night": 19449,
+      "max_guests": 4,
+      "amenities": [
+        "beach_access",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.1,
+      "latitude": 15.6428,
+      "longitude": 73.70482,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H023",
+      "name": "Azure Camp",
+      "destination": "Goa",
+      "location": "Betalbatim",
+      "price_per_night": 3329,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.5,
+      "latitude": 15.2945,
+      "longitude": 73.92344,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H024",
+      "name": "Lotus Bungalows",
+      "destination": "Goa",
+      "location": "Patnem",
+      "price_per_night": 6521,
+      "max_guests": 3,
+      "amenities": [
+        "24_hour_front_desk",
+        "air_conditioning",
+        "bar",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.9,
+      "latitude": 14.99154,
+      "longitude": 74.03598,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H025",
+      "name": "Verandah Lodge",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 1997,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "budget",
+        "central"
+      ],
+      "rating": 3.4,
+      "latitude": 15.01276,
+      "longitude": 74.02992,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H026",
+      "name": "Meridian Villa",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 1541,
+      "max_guests": 12,
+      "amenities": [
+        "24_hour_front_desk",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central",
+        "party"
+      ],
+      "rating": 3.6,
+      "latitude": 15.49971,
+      "longitude": 73.79801,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H027",
+      "name": "Silver Sands Camp",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 7692,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "rooftop"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 4.7,
+      "latitude": 15.57992,
+      "longitude": 73.7276,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H028",
+      "name": "Monsoon Camp",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "price_per_night": 10744,
+      "max_guests": 5,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 4.3,
+      "latitude": 15.25521,
+      "longitude": 73.93141,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H029",
+      "name": "Driftwood Suites",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 18986,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "gym",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.7,
+      "latitude": 15.31383,
+      "longitude": 73.89713,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H030",
+      "name": "Banyan Cottages",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 16779,
+      "max_guests": 8,
+      "amenities": [
+        "air_conditioning",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "family",
+        "premium",
+        "villas"
+      ],
+      "rating": 3.9,
+      "latitude": 15.00078,
+      "longitude": 74.00859,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H031",
+      "name": "Riverside Lodge",
+      "destination": "Goa",
+      "location": "Calangute",
+      "price_per_night": 4946,
+      "max_guests": 6,
+      "amenities": [
+        "airport_transfer",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 4.0,
+      "latitude": 15.5288,
+      "longitude": 73.74637,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H032",
+      "name": "Amber Residency",
+      "destination": "Goa",
+      "location": "Ashwem",
+      "price_per_night": 7070,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "pool",
+        "restaurant",
+        "room_service",
+        "wifi"
+      ],
+      "tags": [
+        "couples",
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 4.0,
+      "latitude": 15.67323,
+      "longitude": 73.71933,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H033",
+      "name": "Old World Retreat",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 5677,
+      "max_guests": 4,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "pet_friendly"
+      ],
+      "tags": [
+        "budget",
+        "eco",
+        "nature",
+        "quiet"
+      ],
+      "rating": 3.7,
+      "latitude": 15.56288,
+      "longitude": 73.75355,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H034",
+      "name": "Laguna Resort & Spa",
+      "destination": "Goa",
+      "location": "Arpora",
+      "price_per_night": 15457,
+      "max_guests": 4,
+      "amenities": [
+        "beach_access",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.4,
+      "latitude": 15.57843,
+      "longitude": 73.75623,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H035",
+      "name": "Monsoon Boutique Stay",
+      "destination": "Goa",
+      "location": "Porvorim",
+      "price_per_night": 6719,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 4.0,
+      "latitude": 15.50864,
+      "longitude": 73.81848,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H036",
+      "name": "Latin Quarter Retreat",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 6019,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "restaurant",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "central",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.7,
+      "latitude": 15.30714,
+      "longitude": 73.88998,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H037",
+      "name": "Monsoon Hostel",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 1968,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "laundry",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "friends"
+      ],
+      "rating": 3.6,
+      "latitude": 15.05311,
+      "longitude": 73.97578,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H038",
+      "name": "Cashew Guest House",
+      "destination": "Goa",
+      "location": "Mobor",
+      "price_per_night": 1807,
+      "max_guests": 6,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry",
+        "parking"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central",
+        "friends"
+      ],
+      "rating": 4.1,
+      "latitude": 15.15256,
+      "longitude": 73.95404,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H039",
+      "name": "Coastal Hideaway",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 8506,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "rooftop",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 4.7,
+      "latitude": 15.06336,
+      "longitude": 73.99941,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H040",
+      "name": "Spice Coast Resort & Spa",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 9083,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 3.6,
+      "latitude": 15.50055,
+      "longitude": 73.80368,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H041",
+      "name": "Cliffside Camp",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 21684,
+      "max_guests": 2,
+      "amenities": [
+        "beach_access",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.6,
+      "latitude": 15.04432,
+      "longitude": 73.97541,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H042",
+      "name": "Backwater Villa",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 16327,
+      "max_guests": 8,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking"
+      ],
+      "tags": [
+        "family",
+        "friends",
+        "villas"
+      ],
+      "rating": 4.4,
+      "latitude": 15.55651,
+      "longitude": 73.76266,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H043",
+      "name": "Amber Villa",
+      "destination": "Goa",
+      "location": "Candolim",
+      "price_per_night": 7327,
+      "max_guests": 6,
+      "amenities": [
+        "airport_transfer",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 4.5,
+      "latitude": 15.50946,
+      "longitude": 73.76116,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H044",
+      "name": "Backwater Lodge",
+      "destination": "Goa",
+      "location": "Siolim",
+      "price_per_night": 13749,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.4,
+      "latitude": 15.61732,
+      "longitude": 73.75455,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H045",
+      "name": "Serene Lodge",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 4371,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "parking",
+        "pet_friendly",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.9,
+      "latitude": 15.04821,
+      "longitude": 73.99078,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H046",
+      "name": "Paradise Homestay",
+      "destination": "Goa",
+      "location": "Colva",
+      "price_per_night": 23048,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.6,
+      "latitude": 15.26741,
+      "longitude": 73.91486,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H047",
+      "name": "Arabian Sea Suites",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 3823,
+      "max_guests": 3,
+      "amenities": [
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.7,
+      "latitude": 15.15795,
+      "longitude": 73.94401,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H048",
+      "name": "Tranquil Homestay",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 4975,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "party"
+      ],
+      "rating": 4.3,
+      "latitude": 15.56233,
+      "longitude": 73.73736,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H049",
+      "name": "Konkan Inn",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "price_per_night": 3147,
+      "max_guests": 3,
+      "amenities": [
+        "laundry",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "budget",
+        "central"
+      ],
+      "rating": 3.4,
+      "latitude": 15.64266,
+      "longitude": 73.69528,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H050",
+      "name": "Casuarina Retreat",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 1018,
+      "max_guests": 8,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry",
+        "parking"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "friends",
+        "party"
+      ],
+      "rating": 3.4,
+      "latitude": 15.51498,
+      "longitude": 73.8106,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H051",
+      "name": "Monsoon Retreat",
+      "destination": "Goa",
+      "location": "Arpora",
+      "price_per_night": 5885,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "spa"
+      ],
+      "tags": [
+        "boutique",
+        "romantic"
+      ],
+      "rating": 4.7,
+      "latitude": 15.57499,
+      "longitude": 73.77709,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H052",
+      "name": "Serene Camp",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 5738,
+      "max_guests": 5,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 4.5,
+      "latitude": 15.05239,
+      "longitude": 73.99697,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H053",
+      "name": "Turquoise Residency",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 22673,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "gym",
+        "pool",
+        "spa"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.2,
+      "latitude": 15.33111,
+      "longitude": 73.90913,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H054",
+      "name": "Moonlit Villas",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 21474,
+      "max_guests": 10,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "secluded",
+        "villas"
+      ],
+      "rating": 4.6,
+      "latitude": 15.48317,
+      "longitude": 73.81054,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H055",
+      "name": "Turquoise Boutique Stay",
+      "destination": "Goa",
+      "location": "Vagator",
+      "price_per_night": 5455,
+      "max_guests": 5,
+      "amenities": [
+        "airport_transfer",
+        "breakfast",
+        "kids_play_area",
+        "pool"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.6,
+      "latitude": 15.60603,
+      "longitude": 73.74448,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H056",
+      "name": "Driftwood Retreat",
+      "destination": "Goa",
+      "location": "Calangute",
+      "price_per_night": 14850,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "couples",
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 4.5,
+      "latitude": 15.55348,
+      "longitude": 73.76589,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H057",
+      "name": "Golden Sands Hostel",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 3985,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "eco",
+        "nature",
+        "quiet"
+      ],
+      "rating": 3.6,
+      "latitude": 15.00834,
+      "longitude": 74.01208,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H058",
+      "name": "Moonlit Lodge",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 12828,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.8,
+      "latitude": 15.17418,
+      "longitude": 73.95413,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H059",
+      "name": "Laterite Resort",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 4185,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.3,
+      "latitude": 15.05288,
+      "longitude": 73.98332,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H060",
+      "name": "Breezeway Estate",
+      "destination": "Goa",
+      "location": "Vagator",
+      "price_per_night": 4020,
+      "max_guests": 5,
+      "amenities": [
+        "air_conditioning",
+        "bar",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "central",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.3,
+      "latitude": 15.60725,
+      "longitude": 73.74078,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H061",
+      "name": "Tranquil Villas",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 3235,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "beach",
+        "budget"
+      ],
+      "rating": 3.4,
+      "latitude": 15.54593,
+      "longitude": 73.76496,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H062",
+      "name": "Moonlit Guest House",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "price_per_night": 1580,
+      "max_guests": 10,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "party"
+      ],
+      "rating": 3.6,
+      "latitude": 15.46256,
+      "longitude": 73.81636,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H063",
+      "name": "Seabreeze Guest House",
+      "destination": "Goa",
+      "location": "Patnem",
+      "price_per_night": 7496,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "rooftop",
+        "spa"
+      ],
+      "tags": [
+        "boutique",
+        "romantic"
+      ],
+      "rating": 4.6,
+      "latitude": 14.99748,
+      "longitude": 74.01785,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H064",
+      "name": "Casuarina Estate",
+      "destination": "Goa",
+      "location": "Porvorim",
+      "price_per_night": 9804,
+      "max_guests": 5,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 3.9,
+      "latitude": 15.52435,
+      "longitude": 73.82669,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H065",
+      "name": "Cashew Manor",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 28850,
+      "max_guests": 6,
+      "amenities": [
+        "beach_access",
+        "breakfast",
+        "gym",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.2,
+      "latitude": 15.00173,
+      "longitude": 74.00825,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H066",
+      "name": "Banyan Suites",
+      "destination": "Goa",
+      "location": "Panaji",
+      "price_per_night": 10324,
+      "max_guests": 6,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "wifi"
+      ],
+      "tags": [
+        "friends",
+        "premium",
+        "villas"
+      ],
+      "rating": 4.0,
+      "latitude": 15.49199,
+      "longitude": 73.82702,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H067",
+      "name": "Breezeway Guest House",
+      "destination": "Goa",
+      "location": "Arpora",
+      "price_per_night": 4930,
+      "max_guests": 5,
+      "amenities": [
+        "airport_transfer",
+        "parking",
+        "pool",
+        "restaurant"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.8,
+      "latitude": 15.56703,
+      "longitude": 73.75255,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H068",
+      "name": "Mango Tree Resort & Spa",
+      "destination": "Goa",
+      "location": "Betalbatim",
+      "price_per_night": 7864,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "spa"
+      ],
+      "tags": [
+        "couples",
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 3.9,
+      "latitude": 15.2832,
+      "longitude": 73.92265,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H069",
+      "name": "Silver Sands Boutique Stay",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 5630,
+      "max_guests": 3,
+      "amenities": [
+        "parking",
+        "pet_friendly",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "eco",
+        "nature",
+        "quiet"
+      ],
+      "rating": 4.2,
+      "latitude": 15.49136,
+      "longitude": 73.81602,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H070",
+      "name": "Casuarina Guest House",
+      "destination": "Goa",
+      "location": "Ribandar",
+      "price_per_night": 25208,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "pool",
+        "room_service",
+        "spa"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.8,
+      "latitude": 15.50001,
+      "longitude": 73.86,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H071",
+      "name": "Ocean Breeze Homestay",
+      "destination": "Goa",
+      "location": "Patnem",
+      "price_per_night": 3170,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "parking"
+      ],
+      "tags": [
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 3.4,
+      "latitude": 14.99753,
+      "longitude": 74.01846,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H072",
+      "name": "Tranquil Inn",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 6281,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "bar",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.6,
+      "latitude": 15.54736,
+      "longitude": 73.76112,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H073",
+      "name": "Spice Coast Suites",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "price_per_night": 1862,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "laundry"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central"
+      ],
+      "rating": 3.5,
+      "latitude": 15.26781,
+      "longitude": 73.92467,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H074",
+      "name": "Verandah Bungalows",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 1745,
+      "max_guests": 12,
+      "amenities": [
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central",
+        "friends"
+      ],
+      "rating": 3.8,
+      "latitude": 15.47356,
+      "longitude": 73.79523,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H075",
+      "name": "Cashew Villas",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "price_per_night": 7684,
+      "max_guests": 4,
+      "amenities": [
+        "breakfast",
+        "restaurant",
+        "rooftop",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 3.9,
+      "latitude": 15.65875,
+      "longitude": 73.72188,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H076",
+      "name": "Coconut Grove Lodge",
+      "destination": "Goa",
+      "location": "Mobor",
+      "price_per_night": 8599,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 4.3,
+      "latitude": 15.14243,
+      "longitude": 73.94813,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H077",
+      "name": "Laguna Bungalows",
+      "destination": "Goa",
+      "location": "Agonda",
+      "price_per_night": 25757,
+      "max_guests": 6,
+      "amenities": [
+        "beach_access",
+        "breakfast",
+        "gym",
+        "restaurant",
+        "room_service",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.9,
+      "latitude": 15.04352,
+      "longitude": 73.99671,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H078",
+      "name": "Silver Sands Beach House",
+      "destination": "Goa",
+      "location": "Calangute",
+      "price_per_night": 18542,
+      "max_guests": 10,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "pool"
+      ],
+      "tags": [
+        "family",
+        "secluded",
+        "villas"
+      ],
+      "rating": 4.0,
+      "latitude": 15.52754,
+      "longitude": 73.76177,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H079",
+      "name": "Wanderlust Resort & Spa",
+      "destination": "Goa",
+      "location": "Vagator",
+      "price_per_night": 5769,
+      "max_guests": 4,
+      "amenities": [
+        "airport_transfer",
+        "breakfast",
+        "parking",
+        "pool",
+        "restaurant"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.8,
+      "latitude": 15.59076,
+      "longitude": 73.755,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H080",
+      "name": "Riverside Homestay",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 8712,
+      "max_guests": 3,
+      "amenities": [
+        "breakfast",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "couples",
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 4.6,
+      "latitude": 15.30987,
+      "longitude": 73.90994,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H081",
+      "name": "Verandah Estate",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "price_per_night": 5920,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "pet_friendly"
+      ],
+      "tags": [
+        "budget",
+        "eco",
+        "nature",
+        "quiet"
+      ],
+      "rating": 4.3,
+      "latitude": 15.26926,
+      "longitude": 73.91907,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H082",
+      "name": "Anchorage Cottages",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 26303,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "pool",
+        "restaurant",
+        "room_service"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.3,
+      "latitude": 15.56099,
+      "longitude": 73.74314,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H083",
+      "name": "Seabreeze Manor",
+      "destination": "Goa",
+      "location": "Morjim",
+      "price_per_night": 4818,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 4.0,
+      "latitude": 15.61942,
+      "longitude": 73.73812,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H084",
+      "name": "Old World Resort",
+      "destination": "Goa",
+      "location": "Calangute",
+      "price_per_night": 6246,
+      "max_guests": 3,
+      "amenities": [
+        "restaurant",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "central",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.8,
+      "latitude": 15.52797,
+      "longitude": 73.76644,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H085",
+      "name": "Amber Guest House",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "price_per_night": 3425,
+      "max_guests": 4,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "central"
+      ],
+      "rating": 3.1,
+      "latitude": 15.45147,
+      "longitude": 73.79949,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H086",
+      "name": "Frangipani Cottages",
+      "destination": "Goa",
+      "location": "Porvorim",
+      "price_per_night": 1823,
+      "max_guests": 6,
+      "amenities": [
+        "24_hour_front_desk",
+        "parking"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "friends",
+        "party"
+      ],
+      "rating": 3.3,
+      "latitude": 15.50188,
+      "longitude": 73.8351,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H087",
+      "name": "Serene Resort",
+      "destination": "Goa",
+      "location": "Arpora",
+      "price_per_night": 8309,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "rooftop",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 4.8,
+      "latitude": 15.57924,
+      "longitude": 73.75203,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H088",
+      "name": "Laguna Camp",
+      "destination": "Goa",
+      "location": "Panaji",
+      "price_per_night": 5849,
+      "max_guests": 5,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "pool"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 4.1,
+      "latitude": 15.48223,
+      "longitude": 73.83471,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H089",
+      "name": "Turquoise Camp",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 22498,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.9,
+      "latitude": 14.99689,
+      "longitude": 74.02829,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H090",
+      "name": "Banyan Estate",
+      "destination": "Goa",
+      "location": "Baga",
+      "price_per_night": 20793,
+      "max_guests": 6,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "wifi"
+      ],
+      "tags": [
+        "friends",
+        "premium",
+        "villas"
+      ],
+      "rating": 4.0,
+      "latitude": 15.55073,
+      "longitude": 73.74571,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H091",
+      "name": "Solstice Guest House",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 5978,
+      "max_guests": 6,
+      "amenities": [
+        "airport_transfer",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.9,
+      "latitude": 15.31773,
+      "longitude": 73.89792,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H092",
+      "name": "Tranquil Resort & Spa",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 11776,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.8,
+      "latitude": 15.56841,
+      "longitude": 73.7468,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H093",
+      "name": "Banyan Manor",
+      "destination": "Goa",
+      "location": "Betalbatim",
+      "price_per_night": 5142,
+      "max_guests": 3,
+      "amenities": [
+        "parking",
+        "pet_friendly",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 4.1,
+      "latitude": 15.27879,
+      "longitude": 73.90708,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H094",
+      "name": "Feni Residency",
+      "destination": "Goa",
+      "location": "Mobor",
+      "price_per_night": 17150,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.4,
+      "latitude": 15.13913,
+      "longitude": 73.94601,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H095",
+      "name": "Solstice Hostel",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "price_per_night": 5339,
+      "max_guests": 4,
+      "amenities": [
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.9,
+      "latitude": 15.45839,
+      "longitude": 73.82489,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H096",
+      "name": "Whispering Palms Boutique Stay",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "price_per_night": 6346,
+      "max_guests": 2,
+      "amenities": [
+        "24_hour_front_desk",
+        "air_conditioning",
+        "restaurant",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "central",
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.3,
+      "latitude": 15.27403,
+      "longitude": 73.9346,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H097",
+      "name": "Solstice Camp",
+      "destination": "Goa",
+      "location": "Siolim",
+      "price_per_night": 2457,
+      "max_guests": 4,
+      "amenities": [
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "central"
+      ],
+      "rating": 3.5,
+      "latitude": 15.61583,
+      "longitude": 73.76217,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H098",
+      "name": "Konkan Estate",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 1449,
+      "max_guests": 6,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry",
+        "parking"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central"
+      ],
+      "rating": 3.8,
+      "latitude": 15.4877,
+      "longitude": 73.79521,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H099",
+      "name": "Feni Inn",
+      "destination": "Goa",
+      "location": "Betalbatim",
+      "price_per_night": 5348,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "spa"
+      ],
+      "tags": [
+        "boutique",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.0,
+      "latitude": 15.27872,
+      "longitude": 73.90459,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H100",
+      "name": "Monsoon Villa",
+      "destination": "Goa",
+      "location": "Siolim",
+      "price_per_night": 6381,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "breakfast"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.6,
+      "latitude": 15.621,
+      "longitude": 73.76008,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H101",
+      "name": "Laguna Retreat",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "price_per_night": 15496,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "gym",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.5,
+      "latitude": 15.65216,
+      "longitude": 73.71354,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H102",
+      "name": "Golden Sands Inn",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 10353,
+      "max_guests": 10,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "pool",
+        "wifi"
+      ],
+      "tags": [
+        "secluded",
+        "villas"
+      ],
+      "rating": 3.9,
+      "latitude": 15.47693,
+      "longitude": 73.80321,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H103",
+      "name": "Emerald Camp",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "price_per_night": 7925,
+      "max_guests": 5,
+      "amenities": [
+        "airport_transfer",
+        "breakfast",
+        "parking",
+        "restaurant"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.7,
+      "latitude": 15.63652,
+      "longitude": 73.72336,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H104",
+      "name": "Paradise Hideaway",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "price_per_night": 7475,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "couples",
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 4.3,
+      "latitude": 15.47137,
+      "longitude": 73.80992,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H105",
+      "name": "Paradise Villas",
+      "destination": "Goa",
+      "location": "Majorda",
+      "price_per_night": 3998,
+      "max_guests": 3,
+      "amenities": [
+        "laundry",
+        "pet_friendly",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.8,
+      "latitude": 15.28902,
+      "longitude": 73.90293,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H106",
+      "name": "Whispering Palms Resort & Spa",
+      "destination": "Goa",
+      "location": "Calangute",
+      "price_per_night": 22211,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.7,
+      "latitude": 15.5415,
+      "longitude": 73.76976,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H107",
+      "name": "Horizon Suites",
+      "destination": "Goa",
+      "location": "Colva",
+      "price_per_night": 5728,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.7,
+      "latitude": 15.26636,
+      "longitude": 73.90911,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H108",
+      "name": "Meridian Resort",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 8111,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "restaurant",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.9,
+      "latitude": 15.01029,
+      "longitude": 74.0197,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H109",
+      "name": "Ferry Point Homestay",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 2684,
+      "max_guests": 4,
+      "amenities": [
+        "breakfast",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "budget"
+      ],
+      "rating": 3.2,
+      "latitude": 15.17467,
+      "longitude": 73.95416,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H110",
+      "name": "Old World Camp",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 1442,
+      "max_guests": 12,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "party"
+      ],
+      "rating": 3.7,
+      "latitude": 15.4883,
+      "longitude": 73.78557,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H111",
+      "name": "Cashew Hideaway",
+      "destination": "Goa",
+      "location": "Patnem",
+      "price_per_night": 5698,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "rooftop"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 4.7,
+      "latitude": 14.98687,
+      "longitude": 74.01914,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H112",
+      "name": "Solstice Beach House",
+      "destination": "Goa",
+      "location": "Ribandar",
+      "price_per_night": 10679,
+      "max_guests": 5,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "breakfast",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "resort"
+      ],
+      "rating": 4.4,
+      "latitude": 15.50663,
+      "longitude": 73.8543,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H113",
+      "name": "Tranquil Suites",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 28031,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "gym",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.9,
+      "latitude": 15.16939,
+      "longitude": 73.94181,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H114",
+      "name": "Backwater Homestay",
+      "destination": "Goa",
+      "location": "Varca",
+      "price_per_night": 18747,
+      "max_guests": 10,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "kids_play_area",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "family",
+        "friends",
+        "villas"
+      ],
+      "rating": 4.3,
+      "latitude": 15.21737,
+      "longitude": 73.94272,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H115",
+      "name": "Emerald Guest House",
+      "destination": "Goa",
+      "location": "Assagao",
+      "price_per_night": 4930,
+      "max_guests": 4,
+      "amenities": [
+        "airport_transfer",
+        "breakfast",
+        "kids_play_area",
+        "parking",
+        "pool"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 4.3,
+      "latitude": 15.58593,
+      "longitude": 73.77914,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H116",
+      "name": "Silver Sands Guest House",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "price_per_night": 10706,
+      "max_guests": 3,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.7,
+      "latitude": 15.45927,
+      "longitude": 73.81452,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H117",
+      "name": "Latin Quarter Residency",
+      "destination": "Goa",
+      "location": "Majorda",
+      "price_per_night": 4126,
+      "max_guests": 3,
+      "amenities": [
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "nature",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.7,
+      "latitude": 15.31259,
+      "longitude": 73.92492,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H118",
+      "name": "Harbourview Inn",
+      "destination": "Goa",
+      "location": "Patnem",
+      "price_per_night": 20590,
+      "max_guests": 4,
+      "amenities": [
+        "beach_access",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "room_service",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.2,
+      "latitude": 14.99863,
+      "longitude": 74.03424,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H119",
+      "name": "Cliffside Lodge",
+      "destination": "Goa",
+      "location": "Candolim",
+      "price_per_night": 4582,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "quiet",
+        "romantic",
+        "secluded"
+      ],
+      "rating": 4.2,
+      "latitude": 15.51511,
+      "longitude": 73.75385,
+      "availability": false,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H120",
+      "name": "Tidewater Cottages",
+      "destination": "Goa",
+      "location": "Morjim",
+      "price_per_night": 5687,
+      "max_guests": 4,
+      "amenities": [
+        "24_hour_front_desk",
+        "air_conditioning",
+        "bar",
+        "wifi"
+      ],
+      "tags": [
+        "central",
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.3,
+      "latitude": 15.62651,
+      "longitude": 73.7384,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H121",
+      "name": "Cliffside Boutique Stay",
+      "destination": "Goa",
+      "location": "Varca",
+      "price_per_night": 2136,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "laundry"
+      ],
+      "tags": [
+        "budget",
+        "friends"
+      ],
+      "rating": 4.1,
+      "latitude": 15.24185,
+      "longitude": 73.93611,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H122",
+      "name": "Casuarina Residency",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 1764,
+      "max_guests": 8,
+      "amenities": [
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "central",
+        "party"
+      ],
+      "rating": 3.1,
+      "latitude": 15.16621,
+      "longitude": 73.94606,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H123",
+      "name": "Verandah Hostel",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "price_per_night": 5227,
+      "max_guests": 2,
+      "amenities": [
+        "restaurant",
+        "rooftop",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 3.9,
+      "latitude": 15.17016,
+      "longitude": 73.94218,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H124",
+      "name": "Laguna Villas",
+      "destination": "Goa",
+      "location": "Varca",
+      "price_per_night": 5472,
+      "max_guests": 6,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "nightlife",
+        "resort"
+      ],
+      "rating": 3.6,
+      "latitude": 15.2304,
+      "longitude": 73.9287,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H125",
+      "name": "Seabreeze Hideaway",
+      "destination": "Goa",
+      "location": "Porvorim",
+      "price_per_night": 22734,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.8,
+      "latitude": 15.52683,
+      "longitude": 73.83958,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H126",
+      "name": "Bamboo Boutique Stay",
+      "destination": "Goa",
+      "location": "Mobor",
+      "price_per_night": 14439,
+      "max_guests": 8,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "wifi"
+      ],
+      "tags": [
+        "family",
+        "premium",
+        "villas"
+      ],
+      "rating": 3.9,
+      "latitude": 15.13856,
+      "longitude": 73.96479,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H127",
+      "name": "Ferry Point Retreat",
+      "destination": "Goa",
+      "location": "Siolim",
+      "price_per_night": 7934,
+      "max_guests": 4,
+      "amenities": [
+        "parking",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.9,
+      "latitude": 15.62675,
+      "longitude": 73.74839,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H128",
+      "name": "Tranquil Estate",
+      "destination": "Goa",
+      "location": "Vagator",
+      "price_per_night": 6924,
+      "max_guests": 2,
+      "amenities": [
+        "beach_view",
+        "breakfast",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.2,
+      "latitude": 15.59817,
+      "longitude": 73.74119,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H129",
+      "name": "Laterite Guest House",
+      "destination": "Goa",
+      "location": "Varca",
+      "price_per_night": 5511,
+      "max_guests": 2,
+      "amenities": [
+        "breakfast",
+        "laundry",
+        "pet_friendly",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "eco",
+        "nature",
+        "quiet"
+      ],
+      "rating": 4.3,
+      "latitude": 15.21683,
+      "longitude": 73.94346,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H130",
+      "name": "Lotus Homestay",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 15948,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.5,
+      "latitude": 15.46852,
+      "longitude": 73.80914,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H131",
+      "name": "Sunset Villas",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 6039,
+      "max_guests": 2,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 4.1,
+      "latitude": 14.99737,
+      "longitude": 74.01849,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H132",
+      "name": "Cliffside Homestay",
+      "destination": "Goa",
+      "location": "Morjim",
+      "price_per_night": 7427,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "bar",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "central",
+        "nightlife",
+        "party"
+      ],
+      "rating": 4.4,
+      "latitude": 15.63673,
+      "longitude": 73.74177,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H133",
+      "name": "Harbourview Residency",
+      "destination": "Goa",
+      "location": "Majorda",
+      "price_per_night": 2158,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "parking"
+      ],
+      "tags": [
+        "beach",
+        "budget",
+        "central"
+      ],
+      "rating": 4.1,
+      "latitude": 15.2969,
+      "longitude": 73.90218,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H134",
+      "name": "Meridian Guest House",
+      "destination": "Goa",
+      "location": "Candolim",
+      "price_per_night": 1216,
+      "max_guests": 10,
+      "amenities": [
+        "24_hour_front_desk",
+        "laundry",
+        "wifi"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "friends"
+      ],
+      "rating": 3.3,
+      "latitude": 15.52785,
+      "longitude": 73.75461,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H135",
+      "name": "Emerald Boutique Stay",
+      "destination": "Goa",
+      "location": "Morjim",
+      "price_per_night": 6013,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "rooftop",
+        "spa"
+      ],
+      "tags": [
+        "boutique",
+        "couples",
+        "quiet"
+      ],
+      "rating": 4.6,
+      "latitude": 15.6219,
+      "longitude": 73.74209,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H136",
+      "name": "Coastal Beach House",
+      "destination": "Goa",
+      "location": "Arossim",
+      "price_per_night": 10257,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 4.3,
+      "latitude": 15.33251,
+      "longitude": 73.90126,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H137",
+      "name": "Paradise Resort",
+      "destination": "Goa",
+      "location": "Ribandar",
+      "price_per_night": 25101,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "gym",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.6,
+      "latitude": 15.50354,
+      "longitude": 73.855,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H138",
+      "name": "Driftwood Bungalows",
+      "destination": "Goa",
+      "location": "Assagao",
+      "price_per_night": 10937,
+      "max_guests": 6,
+      "amenities": [
+        "breakfast",
+        "kids_play_area",
+        "wifi"
+      ],
+      "tags": [
+        "secluded",
+        "villas"
+      ],
+      "rating": 4.5,
+      "latitude": 15.58292,
+      "longitude": 73.78819,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H139",
+      "name": "Cliffside Retreat",
+      "destination": "Goa",
+      "location": "Colva",
+      "price_per_night": 6350,
+      "max_guests": 6,
+      "amenities": [
+        "airport_transfer",
+        "breakfast",
+        "parking",
+        "pool",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "family",
+        "resort"
+      ],
+      "rating": 3.9,
+      "latitude": 15.27877,
+      "longitude": 73.9123,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H140",
+      "name": "Driftwood Hideaway",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "price_per_night": 11427,
+      "max_guests": 2,
+      "amenities": [
+        "beach_view",
+        "pool",
+        "restaurant",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "quiet",
+        "romantic"
+      ],
+      "rating": 4.5,
+      "latitude": 15.55748,
+      "longitude": 73.75036,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H141",
+      "name": "Lotus Hideaway",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "price_per_night": 3348,
+      "max_guests": 4,
+      "amenities": [
+        "pet_friendly",
+        "wifi"
+      ],
+      "tags": [
+        "budget",
+        "eco",
+        "nature",
+        "quiet"
+      ],
+      "rating": 3.6,
+      "latitude": 15.27286,
+      "longitude": 73.91443,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H142",
+      "name": "Spice Coast Inn",
+      "destination": "Goa",
+      "location": "Panaji",
+      "price_per_night": 23864,
+      "max_guests": 2,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "beach_view",
+        "breakfast",
+        "pool",
+        "restaurant",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium"
+      ],
+      "rating": 4.9,
+      "latitude": 15.4792,
+      "longitude": 73.84465,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H143",
+      "name": "Amber Villas",
+      "destination": "Goa",
+      "location": "Assagao",
+      "price_per_night": 6075,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "wifi"
+      ],
+      "tags": [
+        "eco",
+        "quiet",
+        "secluded"
+      ],
+      "rating": 3.7,
+      "latitude": 15.57684,
+      "longitude": 73.77659,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H144",
+      "name": "Seabreeze Cottages",
+      "destination": "Goa",
+      "location": "Palolem",
+      "price_per_night": 6691,
+      "max_guests": 4,
+      "amenities": [
+        "24_hour_front_desk",
+        "air_conditioning",
+        "bar",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "central",
+        "nightlife",
+        "party"
+      ],
+      "rating": 3.3,
+      "latitude": 15.01635,
+      "longitude": 74.02402,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H145",
+      "name": "Meridian Hideaway",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 1683,
+      "max_guests": 3,
+      "amenities": [
+        "air_conditioning",
+        "laundry",
+        "parking",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "budget",
+        "friends"
+      ],
+      "rating": 3.9,
+      "latitude": 15.50037,
+      "longitude": 73.7881,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H146",
+      "name": "Frangipani Suites",
+      "destination": "Goa",
+      "location": "Betalbatim",
+      "price_per_night": 1579,
+      "max_guests": 8,
+      "amenities": [
+        "laundry",
+        "parking"
+      ],
+      "tags": [
+        "backpacker",
+        "budget",
+        "friends",
+        "party"
+      ],
+      "rating": 3.1,
+      "latitude": 15.29216,
+      "longitude": 73.90509,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H147",
+      "name": "Old World Bungalows",
+      "destination": "Goa",
+      "location": "Miramar",
+      "price_per_night": 8061,
+      "max_guests": 4,
+      "amenities": [
+        "air_conditioning",
+        "breakfast",
+        "restaurant",
+        "rooftop",
+        "wifi"
+      ],
+      "tags": [
+        "boutique",
+        "premium"
+      ],
+      "rating": 4.1,
+      "latitude": 15.47055,
+      "longitude": 73.8004,
+      "availability": true,
+      "partnered": true
+    },
+    {
+      "hotel_id": "H148",
+      "name": "Paradise Camp",
+      "destination": "Goa",
+      "location": "Reis Magos",
+      "price_per_night": 10333,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "beach_access",
+        "breakfast",
+        "restaurant",
+        "wifi"
+      ],
+      "tags": [
+        "beach",
+        "couples",
+        "resort"
+      ],
+      "rating": 4.7,
+      "latitude": 15.49504,
+      "longitude": 73.80946,
+      "availability": false,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H149",
+      "name": "Blue Lagoon Hostel",
+      "destination": "Goa",
+      "location": "Varca",
+      "price_per_night": 27875,
+      "max_guests": 4,
+      "amenities": [
+        "bar",
+        "breakfast",
+        "gym",
+        "pool",
+        "room_service",
+        "spa",
+        "wifi"
+      ],
+      "tags": [
+        "beachfront",
+        "luxury",
+        "premium",
+        "romantic"
+      ],
+      "rating": 4.9,
+      "latitude": 15.22478,
+      "longitude": 73.92341,
+      "availability": true,
+      "partnered": false
+    },
+    {
+      "hotel_id": "H150",
+      "name": "Coconut Grove Hostel",
+      "destination": "Goa",
+      "location": "Panaji",
+      "price_per_night": 21026,
+      "max_guests": 12,
+      "amenities": [
+        "air_conditioning",
+        "kids_play_area",
+        "parking",
+        "pool",
+        "wifi"
+      ],
+      "tags": [
+        "premium",
+        "villas"
+      ],
+      "rating": 4.5,
+      "latitude": 15.47707,
+      "longitude": 73.84043,
+      "availability": false,
+      "partnered": true
+    }
+  ]
+}

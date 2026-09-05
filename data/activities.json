@@ -1,0 +1,1803 @@
+{
+  "activities": [
+    {
+      "activity_id": "A001",
+      "name": "Morjim Bird Sanctuary Visit",
+      "destination": "Goa",
+      "location": "Morjim",
+      "category": "wildlife",
+      "price_per_person": 1656,
+      "duration_hours": 2,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "seniors",
+        "solo"
+      ],
+      "rating": 3.9,
+      "latitude": 15.6386,
+      "longitude": 73.74481,
+      "availability": true
+    },
+    {
+      "activity_id": "A002",
+      "name": "Morjim Butterfly Trail Walk",
+      "destination": "Goa",
+      "location": "Morjim",
+      "category": "nature",
+      "price_per_person": 1410,
+      "duration_hours": 1.5,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "couples",
+        "seniors"
+      ],
+      "rating": 3.9,
+      "latitude": 15.62373,
+      "longitude": 73.74315,
+      "availability": true
+    },
+    {
+      "activity_id": "A003",
+      "name": "Ashwem Beach Volleyball Session",
+      "destination": "Goa",
+      "location": "Ashwem",
+      "category": "beach",
+      "price_per_person": 428,
+      "duration_hours": 3,
+      "opening_time": "08:00",
+      "closing_time": "19:00",
+      "tags": [
+        "beach",
+        "friends",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "friends",
+        "kids"
+      ],
+      "rating": 3.8,
+      "latitude": 15.65557,
+      "longitude": 73.72408,
+      "availability": true
+    },
+    {
+      "activity_id": "A004",
+      "name": "Cavelossim Crocodile Spotting Tour",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "category": "wildlife",
+      "price_per_person": 1822,
+      "duration_hours": 3,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids",
+        "solo"
+      ],
+      "rating": 4.6,
+      "latitude": 15.17055,
+      "longitude": 73.94278,
+      "availability": true
+    },
+    {
+      "activity_id": "A005",
+      "name": "Candolim Fort Exploration Tour",
+      "destination": "Goa",
+      "location": "Candolim",
+      "category": "sightseeing",
+      "price_per_person": 988,
+      "duration_hours": 3,
+      "opening_time": "08:00",
+      "closing_time": "18:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "seniors",
+        "solo"
+      ],
+      "rating": 4.4,
+      "latitude": 15.52344,
+      "longitude": 73.75626,
+      "availability": true
+    },
+    {
+      "activity_id": "A006",
+      "name": "Vagator Spice Market Tour",
+      "destination": "Goa",
+      "location": "Vagator",
+      "category": "food",
+      "price_per_person": 2793,
+      "duration_hours": 3,
+      "opening_time": "11:00",
+      "closing_time": "22:00",
+      "tags": [
+        "food",
+        "local"
+      ],
+      "suitable_for": [
+        "friends",
+        "solo"
+      ],
+      "rating": 3.7,
+      "latitude": 15.6015,
+      "longitude": 73.73846,
+      "availability": true
+    },
+    {
+      "activity_id": "A007",
+      "name": "Calangute Backwater Boat Cruise",
+      "destination": "Goa",
+      "location": "Calangute",
+      "category": "cruise",
+      "price_per_person": 2984,
+      "duration_hours": 1.5,
+      "opening_time": "16:00",
+      "closing_time": "20:00",
+      "tags": [
+        "relaxation",
+        "romantic",
+        "sunset"
+      ],
+      "suitable_for": [
+        "families",
+        "friends"
+      ],
+      "rating": 3.9,
+      "latitude": 15.54731,
+      "longitude": 73.76904,
+      "availability": true
+    },
+    {
+      "activity_id": "A008",
+      "name": "Cavelossim Rock Climbing Session",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "category": "adventure",
+      "price_per_person": 4459,
+      "duration_hours": 2,
+      "opening_time": "08:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.1,
+      "latitude": 15.16335,
+      "longitude": 73.94131,
+      "availability": true
+    },
+    {
+      "activity_id": "A009",
+      "name": "Anjuna Cliff Exploration Trek",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "adventure",
+      "price_per_person": 2702,
+      "duration_hours": 4,
+      "opening_time": "08:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "solo"
+      ],
+      "rating": 4.1,
+      "latitude": 15.56536,
+      "longitude": 73.74086,
+      "availability": false
+    },
+    {
+      "activity_id": "A010",
+      "name": "Mandrem Beach Volleyball Session",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "category": "beach",
+      "price_per_person": 1221,
+      "duration_hours": 2,
+      "opening_time": "08:00",
+      "closing_time": "19:00",
+      "tags": [
+        "beach",
+        "friends",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "families",
+        "friends",
+        "kids"
+      ],
+      "rating": 4.5,
+      "latitude": 15.64595,
+      "longitude": 73.71999,
+      "availability": true
+    },
+    {
+      "activity_id": "A011",
+      "name": "Palolem Village Cycling Experience",
+      "destination": "Goa",
+      "location": "Palolem",
+      "category": "cycling",
+      "price_per_person": 1376,
+      "duration_hours": 2,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "nature"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends"
+      ],
+      "rating": 4.6,
+      "latitude": 15.01722,
+      "longitude": 74.02221,
+      "availability": true
+    },
+    {
+      "activity_id": "A012",
+      "name": "Panaji Late Night Beach Rave",
+      "destination": "Goa",
+      "location": "Panaji",
+      "category": "nightlife",
+      "price_per_person": 3883,
+      "duration_hours": 3,
+      "opening_time": "19:00",
+      "closing_time": "02:00",
+      "tags": [
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends"
+      ],
+      "rating": 3.4,
+      "latitude": 15.49194,
+      "longitude": 73.82337,
+      "availability": true
+    },
+    {
+      "activity_id": "A013",
+      "name": "Calangute Panoramic Viewpoint Tour",
+      "destination": "Goa",
+      "location": "Calangute",
+      "category": "sightseeing",
+      "price_per_person": 759,
+      "duration_hours": 4,
+      "opening_time": "08:00",
+      "closing_time": "18:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors"
+      ],
+      "rating": 4.4,
+      "latitude": 15.54985,
+      "longitude": 73.76734,
+      "availability": true
+    },
+    {
+      "activity_id": "A014",
+      "name": "Agonda Shoreline Nature Walk",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "beach",
+      "price_per_person": 850,
+      "duration_hours": 3,
+      "opening_time": "08:00",
+      "closing_time": "19:00",
+      "tags": [
+        "beach",
+        "friends",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "families",
+        "friends",
+        "kids"
+      ],
+      "rating": 4.3,
+      "latitude": 15.04979,
+      "longitude": 73.99155,
+      "availability": false
+    },
+    {
+      "activity_id": "A015",
+      "name": "Agonda Flea Market Shopping Tour",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "shopping",
+      "price_per_person": 677,
+      "duration_hours": 2,
+      "opening_time": "10:00",
+      "closing_time": "22:00",
+      "tags": [
+        "local",
+        "shopping"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.7,
+      "latitude": 15.05031,
+      "longitude": 73.98556,
+      "availability": true
+    },
+    {
+      "activity_id": "A016",
+      "name": "Benaulim Heritage Town Sightseeing",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "category": "sightseeing",
+      "price_per_person": 629,
+      "duration_hours": 4,
+      "opening_time": "08:00",
+      "closing_time": "18:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors",
+        "solo"
+      ],
+      "rating": 4.0,
+      "latitude": 15.2627,
+      "longitude": 73.92395,
+      "availability": true
+    },
+    {
+      "activity_id": "A017",
+      "name": "Old Goa Local Food Walk",
+      "destination": "Goa",
+      "location": "Old Goa",
+      "category": "food",
+      "price_per_person": 2787,
+      "duration_hours": 2,
+      "opening_time": "11:00",
+      "closing_time": "22:00",
+      "tags": [
+        "food",
+        "local"
+      ],
+      "suitable_for": [
+        "couples",
+        "solo"
+      ],
+      "rating": 4.3,
+      "latitude": 15.50095,
+      "longitude": 73.90261,
+      "availability": true
+    },
+    {
+      "activity_id": "A018",
+      "name": "Anjuna Heritage Town Sightseeing",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "sightseeing",
+      "price_per_person": 1434,
+      "duration_hours": 2,
+      "opening_time": "08:00",
+      "closing_time": "18:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids",
+        "seniors"
+      ],
+      "rating": 4.7,
+      "latitude": 15.57859,
+      "longitude": 73.73316,
+      "availability": true
+    },
+    {
+      "activity_id": "A019",
+      "name": "Candolim Mandovi Dinner Cruise",
+      "destination": "Goa",
+      "location": "Candolim",
+      "category": "cruise",
+      "price_per_person": 2523,
+      "duration_hours": 3,
+      "opening_time": "16:00",
+      "closing_time": "20:00",
+      "tags": [
+        "relaxation",
+        "romantic",
+        "sunset"
+      ],
+      "suitable_for": [
+        "couples",
+        "families"
+      ],
+      "rating": 4.3,
+      "latitude": 15.52309,
+      "longitude": 73.75501,
+      "availability": true
+    },
+    {
+      "activity_id": "A020",
+      "name": "Colva Sunrise Yoga Session",
+      "destination": "Goa",
+      "location": "Colva",
+      "category": "wellness",
+      "price_per_person": 502,
+      "duration_hours": 1,
+      "opening_time": "06:00",
+      "closing_time": "19:00",
+      "tags": [
+        "relaxation",
+        "wellness"
+      ],
+      "suitable_for": [
+        "couples",
+        "seniors",
+        "solo"
+      ],
+      "rating": 4.1,
+      "latitude": 15.28311,
+      "longitude": 73.92407,
+      "availability": true
+    },
+    {
+      "activity_id": "A021",
+      "name": "Old Goa Goan Cooking Experience",
+      "destination": "Goa",
+      "location": "Old Goa",
+      "category": "food",
+      "price_per_person": 2529,
+      "duration_hours": 3,
+      "opening_time": "11:00",
+      "closing_time": "22:00",
+      "tags": [
+        "food",
+        "local"
+      ],
+      "suitable_for": [
+        "couples",
+        "solo"
+      ],
+      "rating": 3.6,
+      "latitude": 15.50634,
+      "longitude": 73.91976,
+      "availability": true
+    },
+    {
+      "activity_id": "A022",
+      "name": "Anjuna Hillside Trekking Trail",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "trekking",
+      "price_per_person": 980,
+      "duration_hours": 6,
+      "opening_time": "06:00",
+      "closing_time": "16:00",
+      "tags": [
+        "adventure",
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "friends",
+        "solo"
+      ],
+      "rating": 3.3,
+      "latitude": 15.56627,
+      "longitude": 73.74762,
+      "availability": true
+    },
+    {
+      "activity_id": "A023",
+      "name": "Benaulim Flea Market Shopping Tour",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "category": "shopping",
+      "price_per_person": 455,
+      "duration_hours": 2,
+      "opening_time": "10:00",
+      "closing_time": "22:00",
+      "tags": [
+        "local",
+        "shopping"
+      ],
+      "suitable_for": [
+        "families",
+        "friends",
+        "solo"
+      ],
+      "rating": 3.4,
+      "latitude": 15.25702,
+      "longitude": 73.91426,
+      "availability": true
+    },
+    {
+      "activity_id": "A024",
+      "name": "Palolem Silent Disco Night",
+      "destination": "Goa",
+      "location": "Palolem",
+      "category": "nightlife",
+      "price_per_person": 1572,
+      "duration_hours": 2,
+      "opening_time": "19:00",
+      "closing_time": "02:00",
+      "tags": [
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends"
+      ],
+      "rating": 4.1,
+      "latitude": 15.01926,
+      "longitude": 74.01629,
+      "availability": true
+    },
+    {
+      "activity_id": "A025",
+      "name": "Dona Paula Bird Sanctuary Visit",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "category": "wildlife",
+      "price_per_person": 2336,
+      "duration_hours": 4,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids",
+        "solo"
+      ],
+      "rating": 4.5,
+      "latitude": 15.46558,
+      "longitude": 73.81381,
+      "availability": true
+    },
+    {
+      "activity_id": "A026",
+      "name": "Mandrem Old Goa Heritage Tour",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "category": "heritage",
+      "price_per_person": 1423,
+      "duration_hours": 2,
+      "opening_time": "09:00",
+      "closing_time": "17:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "seniors",
+        "solo"
+      ],
+      "rating": 3.4,
+      "latitude": 15.6499,
+      "longitude": 73.70225,
+      "availability": true
+    },
+    {
+      "activity_id": "A027",
+      "name": "Palolem Forest Trekking Expedition",
+      "destination": "Goa",
+      "location": "Palolem",
+      "category": "trekking",
+      "price_per_person": 1664,
+      "duration_hours": 3,
+      "opening_time": "06:00",
+      "closing_time": "16:00",
+      "tags": [
+        "adventure",
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "friends",
+        "solo"
+      ],
+      "rating": 3.2,
+      "latitude": 15.01093,
+      "longitude": 74.01346,
+      "availability": true
+    },
+    {
+      "activity_id": "A028",
+      "name": "Agonda Countryside Cycling Trail",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "cycling",
+      "price_per_person": 1526,
+      "duration_hours": 3,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "nature"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.3,
+      "latitude": 15.05013,
+      "longitude": 73.99257,
+      "availability": true
+    },
+    {
+      "activity_id": "A029",
+      "name": "Panaji Hillside Trekking Trail",
+      "destination": "Goa",
+      "location": "Panaji",
+      "category": "trekking",
+      "price_per_person": 1116,
+      "duration_hours": 4,
+      "opening_time": "06:00",
+      "closing_time": "16:00",
+      "tags": [
+        "adventure",
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.4,
+      "latitude": 15.48167,
+      "longitude": 73.82158,
+      "availability": true
+    },
+    {
+      "activity_id": "A030",
+      "name": "Calangute Local Cultural Experience",
+      "destination": "Goa",
+      "location": "Calangute",
+      "category": "culture",
+      "price_per_person": 737,
+      "duration_hours": 2,
+      "opening_time": "10:00",
+      "closing_time": "19:00",
+      "tags": [
+        "culture",
+        "local"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors"
+      ],
+      "rating": 3.4,
+      "latitude": 15.53489,
+      "longitude": 73.76849,
+      "availability": true
+    },
+    {
+      "activity_id": "A031",
+      "name": "Morjim Coastal Kayaking",
+      "destination": "Goa",
+      "location": "Morjim",
+      "category": "water_sports",
+      "price_per_person": 2918,
+      "duration_hours": 2,
+      "opening_time": "09:00",
+      "closing_time": "18:00",
+      "tags": [
+        "adventure",
+        "beach",
+        "water_sports"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends"
+      ],
+      "rating": 4.5,
+      "latitude": 15.62993,
+      "longitude": 73.73693,
+      "availability": true
+    },
+    {
+      "activity_id": "A032",
+      "name": "Anjuna Folk Dance Evening",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "culture",
+      "price_per_person": 1379,
+      "duration_hours": 2,
+      "opening_time": "10:00",
+      "closing_time": "19:00",
+      "tags": [
+        "culture",
+        "local"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors"
+      ],
+      "rating": 4.0,
+      "latitude": 15.57543,
+      "longitude": 73.73059,
+      "availability": true
+    },
+    {
+      "activity_id": "A033",
+      "name": "Cavelossim Coastal Kayaking",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "category": "water_sports",
+      "price_per_person": 1444,
+      "duration_hours": 2,
+      "opening_time": "09:00",
+      "closing_time": "18:00",
+      "tags": [
+        "adventure",
+        "beach",
+        "water_sports"
+      ],
+      "suitable_for": [
+        "friends",
+        "solo"
+      ],
+      "rating": 4.5,
+      "latitude": 15.17719,
+      "longitude": 73.93334,
+      "availability": true
+    },
+    {
+      "activity_id": "A034",
+      "name": "Mandrem Cliff Exploration Trek",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "category": "adventure",
+      "price_per_person": 1814,
+      "duration_hours": 2,
+      "opening_time": "08:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "solo"
+      ],
+      "rating": 3.6,
+      "latitude": 15.64092,
+      "longitude": 73.70728,
+      "availability": true
+    },
+    {
+      "activity_id": "A035",
+      "name": "Old Goa Shoreline Nature Walk",
+      "destination": "Goa",
+      "location": "Old Goa",
+      "category": "beach",
+      "price_per_person": 1063,
+      "duration_hours": 1,
+      "opening_time": "08:00",
+      "closing_time": "19:00",
+      "tags": [
+        "beach",
+        "friends",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "families",
+        "friends"
+      ],
+      "rating": 4.6,
+      "latitude": 15.49543,
+      "longitude": 73.90156,
+      "availability": false
+    },
+    {
+      "activity_id": "A036",
+      "name": "Candolim Crocodile Spotting Tour",
+      "destination": "Goa",
+      "location": "Candolim",
+      "category": "wildlife",
+      "price_per_person": 2184,
+      "duration_hours": 3,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids",
+        "solo"
+      ],
+      "rating": 3.2,
+      "latitude": 15.52754,
+      "longitude": 73.76732,
+      "availability": true
+    },
+    {
+      "activity_id": "A037",
+      "name": "Dona Paula Spice Plantation Nature Walk",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "category": "nature",
+      "price_per_person": 1354,
+      "duration_hours": 4,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "families",
+        "solo"
+      ],
+      "rating": 3.2,
+      "latitude": 15.46479,
+      "longitude": 73.80485,
+      "availability": true
+    },
+    {
+      "activity_id": "A038",
+      "name": "Mobor Flea Market Shopping Tour",
+      "destination": "Goa",
+      "location": "Mobor",
+      "category": "shopping",
+      "price_per_person": 309,
+      "duration_hours": 2,
+      "opening_time": "10:00",
+      "closing_time": "22:00",
+      "tags": [
+        "local",
+        "shopping"
+      ],
+      "suitable_for": [
+        "couples",
+        "solo"
+      ],
+      "rating": 4.4,
+      "latitude": 15.14693,
+      "longitude": 73.95679,
+      "availability": true
+    },
+    {
+      "activity_id": "A039",
+      "name": "Colva Ziplining Adventure",
+      "destination": "Goa",
+      "location": "Colva",
+      "category": "adventure",
+      "price_per_person": 1783,
+      "duration_hours": 4,
+      "opening_time": "08:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.7,
+      "latitude": 15.27984,
+      "longitude": 73.9112,
+      "availability": true
+    },
+    {
+      "activity_id": "A040",
+      "name": "Benaulim Waterfall Trek",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "category": "nature",
+      "price_per_person": 795,
+      "duration_hours": 2,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "couples",
+        "families",
+        "seniors"
+      ],
+      "rating": 3.9,
+      "latitude": 15.26949,
+      "longitude": 73.9117,
+      "availability": false
+    },
+    {
+      "activity_id": "A041",
+      "name": "Dona Paula Wildlife Sanctuary Safari",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "category": "wildlife",
+      "price_per_person": 2240,
+      "duration_hours": 3,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "kids",
+        "seniors",
+        "solo"
+      ],
+      "rating": 3.6,
+      "latitude": 15.45522,
+      "longitude": 73.8063,
+      "availability": false
+    },
+    {
+      "activity_id": "A042",
+      "name": "Anjuna Flea Market Shopping Tour",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "shopping",
+      "price_per_person": 777,
+      "duration_hours": 2,
+      "opening_time": "10:00",
+      "closing_time": "22:00",
+      "tags": [
+        "local",
+        "shopping"
+      ],
+      "suitable_for": [
+        "families",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.8,
+      "latitude": 15.56311,
+      "longitude": 73.73329,
+      "availability": true
+    },
+    {
+      "activity_id": "A043",
+      "name": "Benaulim Ancient Church Trail",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "category": "heritage",
+      "price_per_person": 722,
+      "duration_hours": 3,
+      "opening_time": "09:00",
+      "closing_time": "17:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "kids",
+        "seniors"
+      ],
+      "rating": 3.5,
+      "latitude": 15.2553,
+      "longitude": 73.9124,
+      "availability": true
+    },
+    {
+      "activity_id": "A044",
+      "name": "Agonda Ancient Church Trail",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "heritage",
+      "price_per_person": 932,
+      "duration_hours": 2,
+      "opening_time": "09:00",
+      "closing_time": "17:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "kids",
+        "seniors"
+      ],
+      "rating": 4.1,
+      "latitude": 15.05027,
+      "longitude": 73.99354,
+      "availability": true
+    },
+    {
+      "activity_id": "A045",
+      "name": "Benaulim Local Cultural Experience",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "category": "culture",
+      "price_per_person": 748,
+      "duration_hours": 1.5,
+      "opening_time": "10:00",
+      "closing_time": "19:00",
+      "tags": [
+        "culture",
+        "local"
+      ],
+      "suitable_for": [
+        "families",
+        "solo"
+      ],
+      "rating": 3.5,
+      "latitude": 15.25204,
+      "longitude": 73.92588,
+      "availability": true
+    },
+    {
+      "activity_id": "A046",
+      "name": "Candolim Folk Dance Evening",
+      "destination": "Goa",
+      "location": "Candolim",
+      "category": "culture",
+      "price_per_person": 653,
+      "duration_hours": 1.5,
+      "opening_time": "10:00",
+      "closing_time": "19:00",
+      "tags": [
+        "culture",
+        "local"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors"
+      ],
+      "rating": 4.6,
+      "latitude": 15.52165,
+      "longitude": 73.75518,
+      "availability": true
+    },
+    {
+      "activity_id": "A047",
+      "name": "Anjuna Sunset Beach Party",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "nightlife",
+      "price_per_person": 1688,
+      "duration_hours": 4,
+      "opening_time": "19:00",
+      "closing_time": "02:00",
+      "tags": [
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends"
+      ],
+      "rating": 3.3,
+      "latitude": 15.56085,
+      "longitude": 73.73922,
+      "availability": true
+    },
+    {
+      "activity_id": "A048",
+      "name": "Palolem Old Quarter Walking Tour",
+      "destination": "Goa",
+      "location": "Palolem",
+      "category": "sightseeing",
+      "price_per_person": 1073,
+      "duration_hours": 3,
+      "opening_time": "08:00",
+      "closing_time": "18:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids"
+      ],
+      "rating": 4.3,
+      "latitude": 15.00429,
+      "longitude": 74.01374,
+      "availability": true
+    },
+    {
+      "activity_id": "A049",
+      "name": "Cavelossim Beachside Meditation",
+      "destination": "Goa",
+      "location": "Cavelossim",
+      "category": "wellness",
+      "price_per_person": 624,
+      "duration_hours": 1,
+      "opening_time": "06:00",
+      "closing_time": "19:00",
+      "tags": [
+        "relaxation",
+        "wellness"
+      ],
+      "suitable_for": [
+        "couples",
+        "seniors",
+        "solo"
+      ],
+      "rating": 3.5,
+      "latitude": 15.16824,
+      "longitude": 73.94101,
+      "availability": false
+    },
+    {
+      "activity_id": "A050",
+      "name": "Mobor Snorkeling Excursion",
+      "destination": "Goa",
+      "location": "Mobor",
+      "category": "water_sports",
+      "price_per_person": 2270,
+      "duration_hours": 2.5,
+      "opening_time": "09:00",
+      "closing_time": "18:00",
+      "tags": [
+        "adventure",
+        "beach",
+        "water_sports"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "couples",
+        "solo"
+      ],
+      "rating": 3.9,
+      "latitude": 15.1559,
+      "longitude": 73.95979,
+      "availability": true
+    },
+    {
+      "activity_id": "A051",
+      "name": "Mandrem Beach Bonfire Evening",
+      "destination": "Goa",
+      "location": "Mandrem",
+      "category": "beach",
+      "price_per_person": 875,
+      "duration_hours": 1,
+      "opening_time": "08:00",
+      "closing_time": "19:00",
+      "tags": [
+        "beach",
+        "friends",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "couples",
+        "families",
+        "kids"
+      ],
+      "rating": 4.9,
+      "latitude": 15.64059,
+      "longitude": 73.71621,
+      "availability": true
+    },
+    {
+      "activity_id": "A052",
+      "name": "Panaji Bird Watching Walk",
+      "destination": "Goa",
+      "location": "Panaji",
+      "category": "nature",
+      "price_per_person": 2109,
+      "duration_hours": 1.5,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "couples",
+        "solo"
+      ],
+      "rating": 4.8,
+      "latitude": 15.49067,
+      "longitude": 73.83582,
+      "availability": false
+    },
+    {
+      "activity_id": "A053",
+      "name": "Morjim Sunrise Yoga Session",
+      "destination": "Goa",
+      "location": "Morjim",
+      "category": "wellness",
+      "price_per_person": 2011,
+      "duration_hours": 2,
+      "opening_time": "06:00",
+      "closing_time": "19:00",
+      "tags": [
+        "relaxation",
+        "wellness"
+      ],
+      "suitable_for": [
+        "couples",
+        "seniors",
+        "solo"
+      ],
+      "rating": 4.8,
+      "latitude": 15.62473,
+      "longitude": 73.73636,
+      "availability": true
+    },
+    {
+      "activity_id": "A054",
+      "name": "Ashwem Village Cycling Experience",
+      "destination": "Goa",
+      "location": "Ashwem",
+      "category": "cycling",
+      "price_per_person": 1508,
+      "duration_hours": 4,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "nature"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 3.4,
+      "latitude": 15.66673,
+      "longitude": 73.72621,
+      "availability": true
+    },
+    {
+      "activity_id": "A055",
+      "name": "Baga Dolphin Watching Cruise",
+      "destination": "Goa",
+      "location": "Baga",
+      "category": "cruise",
+      "price_per_person": 4759,
+      "duration_hours": 3,
+      "opening_time": "16:00",
+      "closing_time": "20:00",
+      "tags": [
+        "relaxation",
+        "romantic",
+        "sunset"
+      ],
+      "suitable_for": [
+        "couples",
+        "families"
+      ],
+      "rating": 4.4,
+      "latitude": 15.55053,
+      "longitude": 73.74001,
+      "availability": false
+    },
+    {
+      "activity_id": "A056",
+      "name": "Calangute Waterfall Trek",
+      "destination": "Goa",
+      "location": "Calangute",
+      "category": "nature",
+      "price_per_person": 2478,
+      "duration_hours": 2,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "nature",
+        "photography",
+        "relaxation"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors"
+      ],
+      "rating": 3.8,
+      "latitude": 15.53044,
+      "longitude": 73.76173,
+      "availability": false
+    },
+    {
+      "activity_id": "A057",
+      "name": "Anjuna Local Artisan Market Walk",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "shopping",
+      "price_per_person": 461,
+      "duration_hours": 3,
+      "opening_time": "10:00",
+      "closing_time": "22:00",
+      "tags": [
+        "local",
+        "shopping"
+      ],
+      "suitable_for": [
+        "couples",
+        "families",
+        "solo"
+      ],
+      "rating": 3.5,
+      "latitude": 15.56673,
+      "longitude": 73.73645,
+      "availability": false
+    },
+    {
+      "activity_id": "A058",
+      "name": "Palolem Feni Tasting Experience",
+      "destination": "Goa",
+      "location": "Palolem",
+      "category": "food",
+      "price_per_person": 1518,
+      "duration_hours": 2,
+      "opening_time": "11:00",
+      "closing_time": "22:00",
+      "tags": [
+        "food",
+        "local"
+      ],
+      "suitable_for": [
+        "couples",
+        "families",
+        "solo"
+      ],
+      "rating": 4.4,
+      "latitude": 15.00446,
+      "longitude": 74.02178,
+      "availability": false
+    },
+    {
+      "activity_id": "A059",
+      "name": "Agonda Village Cycling Experience",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "cycling",
+      "price_per_person": 1662,
+      "duration_hours": 2,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "nature"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "solo"
+      ],
+      "rating": 4.8,
+      "latitude": 15.05702,
+      "longitude": 73.99542,
+      "availability": false
+    },
+    {
+      "activity_id": "A060",
+      "name": "Anjuna Portuguese Heritage Walk",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "heritage",
+      "price_per_person": 559,
+      "duration_hours": 2,
+      "opening_time": "09:00",
+      "closing_time": "17:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids",
+        "solo"
+      ],
+      "rating": 4.6,
+      "latitude": 15.57873,
+      "longitude": 73.73281,
+      "availability": true
+    },
+    {
+      "activity_id": "A061",
+      "name": "Benaulim Stand-Up Paddleboarding",
+      "destination": "Goa",
+      "location": "Benaulim",
+      "category": "water_sports",
+      "price_per_person": 1077,
+      "duration_hours": 2,
+      "opening_time": "09:00",
+      "closing_time": "18:00",
+      "tags": [
+        "adventure",
+        "beach",
+        "water_sports"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 3.3,
+      "latitude": 15.25023,
+      "longitude": 73.91419,
+      "availability": true
+    },
+    {
+      "activity_id": "A062",
+      "name": "Morjim Colonial Architecture Tour",
+      "destination": "Goa",
+      "location": "Morjim",
+      "category": "heritage",
+      "price_per_person": 1175,
+      "duration_hours": 3,
+      "opening_time": "09:00",
+      "closing_time": "17:00",
+      "tags": [
+        "culture",
+        "heritage",
+        "photography"
+      ],
+      "suitable_for": [
+        "families",
+        "kids",
+        "seniors"
+      ],
+      "rating": 3.5,
+      "latitude": 15.63769,
+      "longitude": 73.73986,
+      "availability": true
+    },
+    {
+      "activity_id": "A063",
+      "name": "Dona Paula Goan Cooking Experience",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "category": "food",
+      "price_per_person": 1228,
+      "duration_hours": 1.5,
+      "opening_time": "11:00",
+      "closing_time": "22:00",
+      "tags": [
+        "food",
+        "local"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends",
+        "solo"
+      ],
+      "rating": 4.4,
+      "latitude": 15.4504,
+      "longitude": 73.80522,
+      "availability": true
+    },
+    {
+      "activity_id": "A064",
+      "name": "Old Goa Cliff Exploration Trek",
+      "destination": "Goa",
+      "location": "Old Goa",
+      "category": "adventure",
+      "price_per_person": 3177,
+      "duration_hours": 4,
+      "opening_time": "08:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends"
+      ],
+      "rating": 4.2,
+      "latitude": 15.50188,
+      "longitude": 73.91227,
+      "availability": true
+    },
+    {
+      "activity_id": "A065",
+      "name": "Anjuna Sunset River Cruise",
+      "destination": "Goa",
+      "location": "Anjuna",
+      "category": "cruise",
+      "price_per_person": 2676,
+      "duration_hours": 3,
+      "opening_time": "16:00",
+      "closing_time": "20:00",
+      "tags": [
+        "relaxation",
+        "romantic",
+        "sunset"
+      ],
+      "suitable_for": [
+        "couples",
+        "families",
+        "friends"
+      ],
+      "rating": 3.6,
+      "latitude": 15.56662,
+      "longitude": 73.74949,
+      "availability": true
+    },
+    {
+      "activity_id": "A066",
+      "name": "Mobor Folk Dance Evening",
+      "destination": "Goa",
+      "location": "Mobor",
+      "category": "culture",
+      "price_per_person": 1238,
+      "duration_hours": 1.5,
+      "opening_time": "10:00",
+      "closing_time": "19:00",
+      "tags": [
+        "culture",
+        "local"
+      ],
+      "suitable_for": [
+        "families",
+        "seniors",
+        "solo"
+      ],
+      "rating": 3.5,
+      "latitude": 15.1568,
+      "longitude": 73.94307,
+      "availability": true
+    },
+    {
+      "activity_id": "A067",
+      "name": "Dona Paula Live Music Evening",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "category": "nightlife",
+      "price_per_person": 1473,
+      "duration_hours": 3,
+      "opening_time": "19:00",
+      "closing_time": "02:00",
+      "tags": [
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends"
+      ],
+      "rating": 4.7,
+      "latitude": 15.46954,
+      "longitude": 73.80947,
+      "availability": true
+    },
+    {
+      "activity_id": "A068",
+      "name": "Agonda Late Night Beach Rave",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "nightlife",
+      "price_per_person": 2513,
+      "duration_hours": 2,
+      "opening_time": "19:00",
+      "closing_time": "02:00",
+      "tags": [
+        "friends",
+        "nightlife",
+        "party"
+      ],
+      "suitable_for": [
+        "couples",
+        "friends"
+      ],
+      "rating": 3.9,
+      "latitude": 15.0437,
+      "longitude": 73.99771,
+      "availability": true
+    },
+    {
+      "activity_id": "A069",
+      "name": "Calangute Mandovi Dinner Cruise",
+      "destination": "Goa",
+      "location": "Calangute",
+      "category": "cruise",
+      "price_per_person": 1396,
+      "duration_hours": 1.5,
+      "opening_time": "16:00",
+      "closing_time": "20:00",
+      "tags": [
+        "relaxation",
+        "romantic",
+        "sunset"
+      ],
+      "suitable_for": [
+        "couples",
+        "families",
+        "friends"
+      ],
+      "rating": 4.1,
+      "latitude": 15.53302,
+      "longitude": 73.76393,
+      "availability": true
+    },
+    {
+      "activity_id": "A070",
+      "name": "Mobor Banana Boat Ride",
+      "destination": "Goa",
+      "location": "Mobor",
+      "category": "water_sports",
+      "price_per_person": 3145,
+      "duration_hours": 1.5,
+      "opening_time": "09:00",
+      "closing_time": "18:00",
+      "tags": [
+        "adventure",
+        "beach",
+        "water_sports"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "couples",
+        "friends"
+      ],
+      "rating": 4.7,
+      "latitude": 15.15374,
+      "longitude": 73.95873,
+      "availability": true
+    },
+    {
+      "activity_id": "A071",
+      "name": "Morjim Forest Trekking Expedition",
+      "destination": "Goa",
+      "location": "Morjim",
+      "category": "trekking",
+      "price_per_person": 1133,
+      "duration_hours": 4,
+      "opening_time": "06:00",
+      "closing_time": "16:00",
+      "tags": [
+        "adventure",
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends"
+      ],
+      "rating": 3.3,
+      "latitude": 15.63898,
+      "longitude": 73.73334,
+      "availability": true
+    },
+    {
+      "activity_id": "A072",
+      "name": "Vagator Sunrise Yoga Session",
+      "destination": "Goa",
+      "location": "Vagator",
+      "category": "wellness",
+      "price_per_person": 2365,
+      "duration_hours": 2,
+      "opening_time": "06:00",
+      "closing_time": "19:00",
+      "tags": [
+        "relaxation",
+        "wellness"
+      ],
+      "suitable_for": [
+        "couples",
+        "solo"
+      ],
+      "rating": 4.1,
+      "latitude": 15.60668,
+      "longitude": 73.73516,
+      "availability": true
+    },
+    {
+      "activity_id": "A073",
+      "name": "Varca Coastal Cycling Tour",
+      "destination": "Goa",
+      "location": "Varca",
+      "category": "cycling",
+      "price_per_person": 1776,
+      "duration_hours": 4,
+      "opening_time": "07:00",
+      "closing_time": "17:00",
+      "tags": [
+        "adventure",
+        "nature"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 3.5,
+      "latitude": 15.22916,
+      "longitude": 73.93747,
+      "availability": true
+    },
+    {
+      "activity_id": "A074",
+      "name": "Dona Paula Hillside Trekking Trail",
+      "destination": "Goa",
+      "location": "Dona Paula",
+      "category": "trekking",
+      "price_per_person": 1541,
+      "duration_hours": 5,
+      "opening_time": "06:00",
+      "closing_time": "16:00",
+      "tags": [
+        "adventure",
+        "nature",
+        "photography"
+      ],
+      "suitable_for": [
+        "adventure_seekers",
+        "friends",
+        "solo"
+      ],
+      "rating": 3.3,
+      "latitude": 15.46735,
+      "longitude": 73.8176,
+      "availability": true
+    },
+    {
+      "activity_id": "A075",
+      "name": "Agonda Sunrise Yoga Session",
+      "destination": "Goa",
+      "location": "Agonda",
+      "category": "wellness",
+      "price_per_person": 1178,
+      "duration_hours": 2,
+      "opening_time": "06:00",
+      "closing_time": "19:00",
+      "tags": [
+        "relaxation",
+        "wellness"
+      ],
+      "suitable_for": [
+        "couples",
+        "solo"
+      ],
+      "rating": 4.8,
+      "latitude": 15.04078,
+      "longitude": 73.99779,
+      "availability": false
+    }
+  ]
+}

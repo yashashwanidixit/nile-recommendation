@@ -1,0 +1,236 @@
+{
+  "info": {
+    "_postman_id": "7f0932da-5d29-4786-8968-d06e2a2ba73f",
+    "name": "NILE Recommendation API",
+    "description": "Postman Collection for NILE AI Itinerary & Recommendation Engine",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://127.0.0.1:8000",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.expect(pm.response.code).to.eql(200);",
+              "});",
+              "",
+              "pm.test(\"Status is ok\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData.status).to.eql(\"ok\");",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/health",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Hotel Recommendations",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.expect(pm.response.code).to.eql(200);",
+              "});",
+              "",
+              "pm.test(\"Response contains expected fields\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData).to.have.property(\"status\");",
+              "    pm.expect(jsonData).to.have.property(\"recommendation_type\");",
+              "    pm.expect(jsonData).to.have.property(\"destination\");",
+              "    pm.expect(jsonData).to.have.property(\"group_size\");",
+              "    pm.expect(jsonData).to.have.property(\"budget\");",
+              "});",
+              "",
+              "pm.test(\"Recommendation type is hotels\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData.recommendation_type).to.eql(\"hotels\");",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"destination\": \"Goa\",\n  \"start_date\": \"2026-10-10\",\n  \"end_date\": \"2026-10-14\",\n  \"group_size\": 4,\n  \"budget\": 40000,\n  \"preferences\": {\n    \"required\": [\n      \"wifi\"\n    ],\n    \"preferred\": [\n      \"beach\",\n      \"luxury\",\n      \"nightlife\"\n    ]\n  },\n  \"activities\": [\n    \"water_sports\",\n    \"nightlife\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/recommendations/hotels",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "recommendations",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Activity Recommendations",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.expect(pm.response.code).to.eql(200);",
+              "});",
+              "",
+              "pm.test(\"Recommendation type is activities\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData.recommendation_type).to.eql(\"activities\");",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"destination\": \"Goa\",\n  \"start_date\": \"2026-10-10\",\n  \"end_date\": \"2026-10-14\",\n  \"group_size\": 4,\n  \"budget\": 40000,\n  \"preferences\": {\n    \"required\": [\n      \"wifi\"\n    ],\n    \"preferred\": [\n      \"beach\",\n      \"luxury\",\n      \"nightlife\"\n    ]\n  },\n  \"activities\": [\n    \"water_sports\",\n    \"nightlife\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/recommendations/activities",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "recommendations",
+            "activities"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Generate Itinerary",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.expect(pm.response.code).to.eql(200);",
+              "});",
+              "",
+              "pm.test(\"Status is not_implemented\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData.status).to.eql(\"not_implemented\");",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"destination\": \"Goa\",\n  \"start_date\": \"2026-10-10\",\n  \"end_date\": \"2026-10-14\",\n  \"group_size\": 4,\n  \"budget\": 40000,\n  \"preferences\": {\n    \"required\": [\n      \"wifi\"\n    ],\n    \"preferred\": [\n      \"beach\",\n      \"luxury\",\n      \"nightlife\"\n    ]\n  },\n  \"activities\": [\n    \"water_sports\",\n    \"nightlife\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/itinerary/generate",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "itinerary",
+            "generate"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Invalid Hotel Request",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"Status code is 422\", function () {",
+              "    pm.expect(pm.response.code).to.eql(422);",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"destination\": \"Goa\",\n  \"start_date\": \"2026-10-10\",\n  \"end_date\": \"2026-10-14\",\n  \"group_size\": -2,\n  \"budget\": 40000,\n  \"preferences\": {\n    \"required\": [\n      \"wifi\"\n    ],\n    \"preferred\": [\n      \"beach\"\n    ]\n  },\n  \"activities\": [\n    \"water_sports\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/recommendations/hotels",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "recommendations",
+            "hotels"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
