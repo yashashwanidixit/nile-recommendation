@@ -1,5 +1,6 @@
 import re
 from datetime import date
+from typing import Optional
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 TIME_REGEX = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
@@ -51,3 +52,11 @@ class Itinerary(BaseModel):
         if self.end_date < self.start_date:
             raise ValueError("end_date must not be before start_date")
         return self
+
+
+class ItineraryResponse(BaseModel):
+    """Response contract for itinerary generation endpoint."""
+
+    status: str = "not_implemented"
+    message: Optional[str] = "Itinerary generation will be implemented after recommendation logic and LLM integration."
+    itinerary: Optional[Itinerary] = None
