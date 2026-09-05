@@ -1,34 +1,46 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
+
+from schemas.activity import Activity
+from schemas.hotel import Hotel
 from schemas.intent import UserIntent
-from services.recommendation import get_filtered_activities, get_filtered_hotels
+from schemas.recommendation import (
+    ActivityRecommendationResponse,
+    HotelRecommendationResponse,
+)
+from services.data_loader import get_activities, get_hotels
+from services.recommendation import recommend_activities, recommend_hotels
 
 router = APIRouter(prefix="/recommendations", tags=["recommendations"])
 
 
-@router.post("/hotels")
-def get_hotel_recommendations(intent: UserIntent) -> dict:
-    """Receive and validate travel intent, returning temporary hotel response."""
-    # Executes service pipeline: provider -> filtering
-    _ = get_filtered_hotels(intent)
+@router.post("/hotels", response_model=HotelRecommendationResponse)
+def get_hotel_recommendations(
+    intent: UserIntent,
+    hotels: list[Hotel] = Depends(get_hotels),
+) -> HotelRecommendationResponse:
+    """Generate ranked hotel recommendations based on user travel intent."""
+    recommendations = recommend_hotels(hotels=hotels, intent=intent)
+    return HotelRecommendationResponse(
+        status="received",
+        recommendation_type="hotels",
+        destination=intent.destination,
+        group_size=intent.group_size,
+        budget=intent.budget,
+        recommendations=recommendations or [],
+    )
 
-    return {
-        "status": "received",
-        "recommendation_type": "hotels",
-        "destination": intent.destination,
-        "group_size": intent.group_size,
-        "budget": intent.budget,
-    }
 
-
-@router.post("/activities")
-def get_activity_recommendations(intent: UserIntent) -> dict:
-    """Receive and validate travel intent, returning temporary activity response."""
-    # Executes service pipeline: provider -> filtering
-    _ = get_filtered_activities(intent)
-
-    return {
-        "status": "received",
-        "recommendation_type": "activities",
-        "destination": intent.destination,
-        "requested_activities": intent.activities,
-    }
+@router.post("/activities", response_model=ActivityRecommendationResponse)
+def get_activity_recommendations(
+    intent: UserIntent,
+    activities: list[Activity] = Depends(get_activities),
+) -> ActivityRecommendationResponse:
+    """Generate ranked activity recommendations based on user travel intent."""
+    recommendations = recommend_activities(activities=activities, intent=intent)
+    return ActivityRecommendationResponse(
+        status="received",
+        recommendation_type="activities",
+        destination=intent.destination,
+        requested_activities=intent.activities,
+        recommendations=recommendations or [],
+    )

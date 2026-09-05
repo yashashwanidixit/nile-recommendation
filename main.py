@@ -1,12 +1,44 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from api.routes.itinerary import router as itinerary_router
 from api.routes.recommendations import router as recommendation_router
+from core.config import get_settings
+from core.exceptions import register_exception_handlers
+from services.data_loader import get_cached_activities, get_cached_hotels
+
+settings = get_settings()
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Application lifespan context manager for startup and shutdown tasks."""
+    # Pre-warm in-memory data caches at application startup
+    get_cached_hotels()
+    get_cached_activities()
+    yield
+
 
 app = FastAPI(
-    title="NILE Recommendation Engine",
-    description="AI-powered travel recommendation and itinerary service",
-    version="0.1.0",
+    title=settings.PROJECT_NAME,
+    description=settings.PROJECT_DESCRIPTION,
+    version=settings.VERSION,
+    debug=settings.DEBUG,
+    lifespan=lifespan,
 )
+
+# CORS middleware configuration
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.CORS_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Global exception handlers
+register_exception_handlers(app)
 
 # Include API Routers
 app.include_router(recommendation_router)
@@ -25,4 +57,4 @@ def health_check() -> dict:
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("main:app", host=settings.HOST, port=settings.PORT, reload=settings.DEBUG)

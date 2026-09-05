@@ -58,33 +58,37 @@ def get_filtered_activities(
 def recommend_hotels(
     hotels: list[Hotel], intent: UserIntent, top_k: int = 5
 ) -> list[RecommendationItem]:
-    """Return ranked hotel recommendations (scoring to be implemented in future stage).
+    """Apply hard filtering and return eligible hotels for API testing."""
 
-    Args:
-        hotels: Candidate hotels list.
-        intent: Structured user travel intent.
-        top_k: Number of top recommendations to return.
+    eligible_hotels = filter_hotels(hotels, intent)
 
-    Returns:
-        List of ranked RecommendationItem objects for hotels.
-    """
-    pass
+    return [
+        RecommendationItem(
+            vendor_id=hotel.hotel_id,
+            name=hotel.name,
+            score=0.0,
+            reasons=["Passed hard filtering constraints"],
+        )
+        for hotel in eligible_hotels[:top_k]
+    ]
 
 
 def recommend_activities(
     activities: list[Activity], intent: UserIntent, top_k: int = 5
 ) -> list[RecommendationItem]:
-    """Return ranked activity recommendations (scoring to be implemented in future stage).
+    """Apply hard filtering and return eligible activities for API testing."""
 
-    Args:
-        activities: Candidate activities list.
-        intent: Structured user travel intent.
-        top_k: Number of top recommendations to return.
+    eligible_activities = filter_activities(activities, intent)
 
-    Returns:
-        List of ranked RecommendationItem objects for activities.
-    """
-    pass
+    return [
+        RecommendationItem(
+            vendor_id=activity.activity_id,
+            name=activity.name,
+            score=0.0,
+            reasons=["Passed hard filtering constraints"],
+        )
+        for activity in eligible_activities[:top_k]
+    ]
 
 
 def get_recommendations(
