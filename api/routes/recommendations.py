@@ -7,7 +7,7 @@ from schemas.recommendation import (
     ActivityRecommendationResponse,
     HotelRecommendationResponse,
 )
-from services.data_loader import get_activities, get_hotels
+from services import get_activities, get_hotels
 from services.recommendation import recommend_activities, recommend_hotels
 
 router = APIRouter(prefix="/recommendations", tags=["recommendations"])

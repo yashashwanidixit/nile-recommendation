@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Optional, Union
 
 from schemas.hotel import Hotel
-from services.data_loader import load_hotels
+from services.data_loader import get_cached_hotels, load_hotels
 
 
 class BaseHotelProvider(ABC):
@@ -22,8 +22,10 @@ class MockHotelProvider(BaseHotelProvider):
         self.file_path = file_path
 
     def get_hotels(self) -> list[Hotel]:
-        """Load and return hotels using existing data loader."""
-        return load_hotels(self.file_path)
+        """Load and return hotels using cached data loader by default, or fresh load for custom paths."""
+        if self.file_path:
+            return load_hotels(self.file_path)
+        return get_cached_hotels()
 
 
 # Active provider instance (defaulting to MockHotelProvider)

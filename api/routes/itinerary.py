@@ -4,7 +4,7 @@ from schemas.activity import Activity
 from schemas.hotel import Hotel
 from schemas.intent import UserIntent
 from schemas.itinerary import ItineraryResponse
-from services.data_loader import get_activities, get_hotels
+from services import get_activities, get_hotels
 from services.itinerary import generate_itinerary as generate_itinerary_service
 from services.recommendation import get_recommendations
 
