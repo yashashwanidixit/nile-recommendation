@@ -131,7 +131,13 @@ def test_itinerary_route_invokes_services_and_returns_completed_plan():
         destination="Goa",
         start_date=date(2026, 10, 10),
         end_date=date(2026, 10, 14),
-        hotel=HotelPlan(hotel_id="H001", name="Ocean Breeze Resort"),
+        hotel=HotelPlan(
+            hotel_id="H001",
+            name="Ocean Breeze Resort",
+            location="Calangute",
+            price_per_night=3500.0,
+            user_preferences=["beach", "luxury"],
+        ),
         days=[
             DayPlan(
                 day=1,
@@ -143,6 +149,9 @@ def test_itinerary_route_invokes_services_and_returns_completed_plan():
                         start_time="10:00",
                         end_time="12:00",
                         estimated_cost=1500.0,
+                        category="water_sports",
+                        location="Baga Beach",
+                        user_preferences=["water_sports"],
                     )
                 ],
             )
@@ -160,6 +169,12 @@ def test_itinerary_route_invokes_services_and_returns_completed_plan():
         assert data["status"] == "success"
         assert data["itinerary"]["destination"] == "Goa"
         assert data["itinerary"]["hotel"]["hotel_id"] == "H001"
+        assert data["itinerary"]["hotel"]["location"] == "Calangute"
+        assert data["itinerary"]["hotel"]["price_per_night"] == 3500.0
+        assert data["itinerary"]["hotel"]["user_preferences"] == ["beach", "luxury"]
+        assert data["itinerary"]["days"][0]["activities"][0]["category"] == "water_sports"
+        assert data["itinerary"]["days"][0]["activities"][0]["location"] == "Baga Beach"
+        assert data["itinerary"]["days"][0]["activities"][0]["user_preferences"] == ["water_sports"]
 
 
 def test_data_cache_dependency_reuse():

@@ -1,6 +1,6 @@
 import re
 from datetime import date
-from typing import Optional
+from typing import Any, Optional
 from pydantic import BaseModel, Field, field_validator, model_validator
 
 TIME_REGEX = re.compile(r"^([01]\d|2[0-3]):([0-5]\d)$")
@@ -12,6 +12,13 @@ class ActivityPlan(BaseModel):
     start_time: str
     end_time: str
     estimated_cost: float = Field(ge=0.0, description="Estimated cost must be non-negative")
+    category: Optional[str] = Field(default=None, description="Activity category (e.g. water_sports, sightseeing)")
+    location: Optional[str] = Field(default=None, description="Location of activity")
+    user_preferences: Optional[list[str]] = Field(default=None, description="Customer preferences satisfied by this activity")
+
+    @property
+    def price(self) -> float:
+        return self.estimated_cost
 
     @field_validator("start_time", "end_time")
     @classmethod
@@ -30,6 +37,22 @@ class DayPlan(BaseModel):
 class HotelPlan(BaseModel):
     hotel_id: str
     name: str
+    location: Optional[str] = Field(default=None, description="Location of hotel")
+    price_per_night: Optional[float] = Field(default=None, ge=0.0, description="Price per night must be non-negative")
+    category: Optional[str] = None  # Optional — underlying hotel data doesn't currently include category; add when data source is confirmed
+    user_preferences: Optional[list[str]] = Field(default=None, description="Customer preferences satisfied by this hotel")
+
+    @property
+    def price(self) -> Optional[float]:
+        return self.price_per_night
+
+    @model_validator(mode="before")
+    @classmethod
+    def handle_price_aliases(cls, data: Any) -> Any:
+        if isinstance(data, dict):
+            if "price" in data and "price_per_night" not in data:
+                data["price_per_night"] = data["price"]
+        return data
 
 
 class Itinerary(BaseModel):
