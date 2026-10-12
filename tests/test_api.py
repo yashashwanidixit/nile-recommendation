@@ -5,7 +5,7 @@ from fastapi.testclient import TestClient
 from main import app
 from schemas.itinerary import ActivityPlan, DayPlan, HotelPlan, Itinerary
 from schemas.recommendation import RecommendationItem, RecommendationOutput
-from services.data_loader import get_activities, get_hotels
+from services import get_activities, get_hotels
 
 client = TestClient(app)
 

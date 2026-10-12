@@ -10,10 +10,10 @@ from services.filtering import (
     is_activity_eligible,
     is_hotel_eligible,
 )
+from services import get_activities, get_hotels
 from services.providers.activity_provider import (
     BaseActivityProvider,
     MockActivityProvider,
-    get_activities,
     get_activity_provider,
     set_activity_provider,
 )
@@ -21,7 +21,6 @@ from services.providers.hotel_provider import (
     BaseHotelProvider,
     MockHotelProvider,
     get_hotel_provider,
-    get_hotels,
     set_hotel_provider,
 )
 from services.recommendation import get_filtered_activities, get_filtered_hotels

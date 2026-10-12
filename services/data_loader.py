@@ -75,12 +75,3 @@ def get_cached_activities(file_path: Optional[str] = None) -> list[Activity]:
     """Load and cache activity records in memory to prevent repeated JSON parsing."""
     return load_activities(file_path)
 
-
-def get_hotels() -> list[Hotel]:
-    """FastAPI dependency providing cached hotel candidate records."""
-    return get_cached_hotels()
-
-
-def get_activities() -> list[Activity]:
-    """FastAPI dependency providing cached activity candidate records."""
-    return get_cached_activities()

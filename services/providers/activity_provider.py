@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import Optional, Union
 
 from schemas.activity import Activity
-from services.data_loader import load_activities
+from services.data_loader import get_cached_activities, load_activities
 
 
 class BaseActivityProvider(ABC):
@@ -22,8 +22,10 @@ class MockActivityProvider(BaseActivityProvider):
         self.file_path = file_path
 
     def get_activities(self) -> list[Activity]:
-        """Load and return activities using existing data loader."""
-        return load_activities(self.file_path)
+        """Load and return activities using cached data loader by default, or fresh load for custom paths."""
+        if self.file_path:
+            return load_activities(self.file_path)
+        return get_cached_activities()
 
 
 # Active provider instance (defaulting to MockActivityProvider)
